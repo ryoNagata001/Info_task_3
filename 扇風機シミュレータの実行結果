@@ -1,0 +1,24 @@
+Last login: Wed Jan 25 12:21:44 on ttys000
+nagataryou-no-MacBook-Pro:~ nagataryou$ cd Desktop/
+nagataryou-no-MacBook-Pro:Desktop nagataryou$ ruby sennpuuki.rb 
+=======扇風機=======
+入力 
+ b1: {"x"=>true}
+ b2: {"x"=>false}
+状態遷移前 扇風機 
+ state: {"a"=>false, "b"=>false}
+状態遷移後 扇風機 
+ state: {"a"=>false, "b"=>true}
+
+
+入力 
+ b1: {"x"=>false}
+ b2: {"x"=>false}
+状態遷移前 扇風機 
+ state: {"a"=>false, "b"=>true}
+状態遷移後 扇風機 
+ state: {"a"=>false, "b"=>true}
+nagataryou-no-MacBook-Pro:Desktop nagataryou$ 
+
+
+
